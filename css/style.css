@@ -40,8 +40,8 @@ img{
 }
 .dropdownmenu {
     display: none;
-    top: 118%;
-    right: 0%;
+    top: 130%;
+    right: -25%;
     z-index: 1;
     background: white;
     border-bottom: 2px solid black;
