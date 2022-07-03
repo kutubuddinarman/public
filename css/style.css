@@ -1,0 +1,147 @@
+img{
+	width:100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mainhead{
+	background: #59ace3;
+    color: white;
+	font-weight: bold;
+}
+.mainmenurow{
+	background:#abb7c6;
+	border-bottom:2px solid red;
+	box-shadow: 0px 2px 1px #e28888;
+
+}
+
+.mainlogo{
+	float:left;
+}
+.mainmenu{
+	float:right;
+	margin-top: 3%;
+}
+.dropdown{
+	display: inline;
+	position: relative;
+	
+}
+.dropdown>a{
+	text-decoration: none;
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 15px;
+}
+.dropdownmenu {
+    display: none;
+    top: 118%;
+    right: 0%;
+    z-index: 1;
+    background: white;
+    border-bottom: 2px solid black;
+    padding: 14px;
+    text-align: center;
+    font-family: cursive;
+	width:185px;
+}
+.dropdownmenu a{
+	color: black;
+font-weight: bold;
+display:block;
+text-decoration: none;
+transition: 1s;
+}
+
+.dropdown:hover .dropdownmenu{
+	display: inline-block;
+	position:absolute;
+	
+}
+#carouselExampleControls{
+	padding-top:15px;
+}
+.carousel-caption{
+	background: White;
+	opacity: 50%;
+	border-radius: 20px ;
+}
+.carousel-caption h1{
+	color: black;
+
+}
+.carousel-caption p{
+	color: black;
+	font-weight: bold;
+}
+.notice {
+    background: #dcd0d0;
+    border: 1px solid;
+    height: 400px;
+	margin-top:15px;
+}
+.noticehead {
+    background: #ffffff;
+    border-bottom: 2px solid #6f6751;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.noticelink {
+    padding: 10px;
+    background: aliceblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid;
+    margin: 4px;
+
+	overflow: scroll;
+	height: 350px;
+}
+.noticelink ul li {
+    list-style-type: none;
+}
+.card {
+	background: #ffc9c9;
+}
+.card i{
+	font-size: 50px;
+
+}
+.bg-primary{
+	
+}
+.mainjointext{
+	font-family:fantasy;
+	border-bottom: 3px solid yellow;
+}
+.jointext{
+    padding-top: 30px;
+	color: wheat;
+   }
+.jointext i{
+ font-size: 80px;
+}
+.jointext h3{
+	padding: 25px
+}
+.copyright{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 40%;
+
+}
+.copyfont{
+	color: yellow !important;
+	font-family: 'Font Awesome 6 Free';
+}
+.footercredit{
+	border-top:4px solid #000;
+}
